@@ -8,7 +8,10 @@
 ![InkedKali-Linux-2021 2-vmware-amd64-2021-10-14-23-24-_LI](https://user-images.githubusercontent.com/91378841/137362965-8148f0a6-f938-4335-afb9-912dd2b5461b.jpg)
 因此使用gdb在0x400c45設立斷點(b *0x400c45)
 ![Kali-Linux-2021 2-vmware-amd64-2021-10-15-01-00-2](https://user-images.githubusercontent.com/91378841/137363336-b6c5f421-b2f2-467c-90b7-0a98e7e0bef4.png)
-並將rax替換成比0大的數字，如此則可觸發Fun_00401230條件式解開Level.db
+並將rax替換成比0大的數字
+![FireShot Capture 096 - DESKTOP-84QV2VD - remotedesktop google com](https://user-images.githubusercontent.com/91378841/137420175-755ef862-259d-460c-a04c-d6d0da7e9183.png)
+如此則可觸發Fun_00401230條件式解開Level.db
+![FireShot Capture 097 - DESKTOP-84QV2VD - remotedesktop google com](https://user-images.githubusercontent.com/91378841/137420243-c3a1fc7a-8e3b-4711-a1cb-a297a49de57f.png)
 之後不會了...
 
 
