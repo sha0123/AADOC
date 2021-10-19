@@ -1,5 +1,5 @@
-①以Ghidra打開blade程式，在Function中找到main/n
-②在main function中我們發現了printflag()字樣，條件是iVarl必須為0
+①以Ghidra打開blade程式，在Function中找到main  
+②在main function中我們發現了printflag()字樣，條件是iVarl必須為0  
 ③於是我們記下該段程式的位置0x80486b3
 ![InkedKali-Linux-2021 2-vmware-amd64-2021-10-19-22-13-22_LI](https://user-images.githubusercontent.com/91378841/137929225-a79e7384-49c9-4ae6-80cc-bd477e744170.jpg)
 以Gdb開啟blade後，將斷點設置在剛剛記下的0x80486b3
