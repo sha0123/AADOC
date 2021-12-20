@@ -12,7 +12,7 @@ r.recvuntil(':)')
 r.sendline(p32(0x79487FF))
 r.interactive()
 ```
-![image](https://user-images.githubusercontent.com/91378841/146801058-6b7d3a4f-3acb-41e4-bf79-68bf2b0f1eb8.png)
+![image](https://user-images.githubusercontent.com/91378841/146801058-6b7d3a4f-3acb-41e4-bf79-68bf2b0f1eb8.png)   
 發現到後面會是1000道數學題目，且格式為 數字 運算符 數字 = ?
 於是我們撰寫code
 
